@@ -1,0 +1,25 @@
+[package]
+authors = ["Wayne Nilsen <waynenilsen@gmail.com>"]
+name = "wiki2"
+version = "0.1.0"
+
+[[bin]]
+name = "wiki2"
+path = "src/bin.rs"
+
+[dependencies]
+clap = "1.4.7"
+handlebars = "0.11.2"
+hyper = "0.6.15"
+log = "0.3.3"
+regex = "0.1.41"
+
+[dependencies.nickel]
+git = "https://github.com/nickel-org/nickel.rs.git"
+
+[dependencies.pulldown-cmark]
+git = "https://github.com/google/pulldown-cmark.git"
+
+[lib]
+name = "wiki2"
+path = "src/lib.rs"
