@@ -6,7 +6,7 @@ Wiki2 is a wiki designed with KISS principals, written in Rust.
 
 Quick and dirty
 ```
-cargo install https://github.com/waynenilsen/wiki2.git
+cargo install --git https://github.com/waynenilsen/wiki2.git
 ```
 
 
@@ -14,7 +14,7 @@ If you don't know what that means, this is for users of Ubuntu and probably OSX.
 
 1. Install multirust `curl -sf https://raw.githubusercontent.com/brson/multirust/master/blastoff.sh | sh`
 2. Install the nightly toolchain `multirust override nightly`
-3. Use Cargo nightly to install wiki2 `cargo install https://github.com/waynenilsen/wiki2.git`
+3. Use Cargo nightly to install wiki2 `cargo install --git https://github.com/waynenilsen/wiki2.git`
 
 ## What is this?
 
