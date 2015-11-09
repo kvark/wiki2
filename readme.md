@@ -1,6 +1,10 @@
 # Wiki2
 
-Wiki2 is a wiki designed with KISS principals, written in Rust.
+Wiki2 is a wiki designed with KISS principals, written in Rust. It is built with the intention of porting to use within the SAFE and/or IPFS networks.
+
+## Contributing
+
+I would like some help working on this if anyone is interested. It is a decent project for learning about rust and there are plenty of unimplemented features that I would like to push out. To contribute, just fork the repo, push commits to a new branch and submit a pull request.
 
 ## Installation
 
@@ -52,7 +56,25 @@ Here is an example
 
 this tree can be served to localhost by navigating to the directory and running the `wiki2` command in that directory.
 
-## Contributing
+## General Design Principals
 
-I would like some help working on this if anyone is interested. It is a decent project for learning about rust and there are plenty of unimplemented features that I would like to push out. To contribute, just fork the repo, push commits to a new branch and submit a pull request.
+* Content should be created in (some variant of) markdown.
+* Content should not be stored in rendered form if possible.
+* This wiki should feel 1.0 with the hope of having 0% javascript if at all possible
+* Avoid creating a user system if at all possible, in stead, choose to use someone elses system
+* To the extent that there are permissions, they should be based on UNIX
+* All content should be versioned
+* Use templates for different sections of the site
+* Provide usable default templates
+* Provide usable default CSS
+
+
+
+
+
+
+
+
+
+
 
